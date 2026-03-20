@@ -128,7 +128,6 @@
     <ClInclude Include="Goblin.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="RandomSpawn.h" />
     <ClInclude Include="Slime.h" />
     <ClInclude Include="WildBoar.h" />
     <ClInclude Include="World.h" />
@@ -140,7 +139,6 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="RandomSpawn.cpp" />
     <ClCompile Include="Slime.cpp" />
     <ClCompile Include="WildBoar.cpp" />
     <ClCompile Include="World.cpp" />

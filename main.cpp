@@ -4,7 +4,6 @@
 #include "WildBoar.h"
 #include "Goblin.h"
 #include "Slime.h"
-#include "RandomSpawn.h"
 
 using namespace std;
 
@@ -15,7 +14,6 @@ int main()
 	AWildBoar WildBoar[10];
 	AGoblin Goblin[5];
 	ASlime Slime[20];
-	ARandomSpawn Spawn[10];
 
 	for (int i = 0; i < 10; i++)
 	{
@@ -31,11 +29,6 @@ int main()
 	{
 		Slime[i].Move();
 	}
-
-	//for (int i = 0; i < 10; i++)
-	//{
-	//	Spawn[i].
-	//}
 
 
 	return 0;
